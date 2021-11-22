@@ -12,7 +12,7 @@ function PokemonView(props) {
 			<section className="Pokemon-details">
 				<section className="Pokemon-figure">
 					<section className="Pokemon-image-title">
-						<p>Pokemon Name</p>
+						<p>{props.pokemon.name}</p>
 					</section>
 					<img className="Pokemon-avatar" src={props.pokemon.picture} alt="avatar" />
 				</section>
